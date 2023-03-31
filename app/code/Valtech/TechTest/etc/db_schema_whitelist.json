@@ -1,0 +1,22 @@
+{
+    "quote": {
+        "column": {
+            "engraving-option": true,
+            "engraving_option": true
+        }
+    },
+    "sales_order": {
+        "column": {
+            "engraving-option": true,
+            "engraving_option": true,
+            "is_engraving": true
+        }
+    },
+    "sales_order_grid": {
+        "column": {
+            "engraving-option": true,
+            "engraving_option": true,
+            "is_engraving": true
+        }
+    }
+}
