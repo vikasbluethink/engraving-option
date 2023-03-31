@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Bluethink::top_level" title="Bluethink" module="Bluethink_AdvanceReports" sortOrder="50" resource="Magento_Backend::content"/>
+        <add id="Bluethink_AdvanceReports::report_dashboard" title="Bluethink Dashboard" module="Bluethink_AdvanceReports" sortOrder="9999" resource="Bluethink_AdvanceReports::index_index" parent="Bluethink::top_level" action="bluethink_advancereports/bluethink/dashboard"/>
+        <add id="Bluethink_AdvanceReports::sales_overview" title="Sales Overview" module="Bluethink_AdvanceReports" sortOrder="9999" resource="Bluethink_AdvanceReports::index_index" parent="Bluethink::top_level" action="bluethink_advancereports/sales/sales"/>
+        <add id="Bluethink_AdvanceReports::product_performance" title="Product Performance" module="Bluethink_AdvanceReports" sortOrder="9999" resource="Bluethink_AdvanceReports::index_index" parent="Bluethink::top_level" action="bluethink_advancereports/product/productPerformance"/>
+        <add id="Bluethink_AdvanceReports::sales_detailed" title="Sales Detailed" module="Bluethink_AdvanceReports" sortOrder="9999" resource="Bluethink_AdvanceReports::index_index" parent="Bluethink::top_level" action="bluethink_advancereports/sales/sales_detailed"/>
+        <add id="Bluethink_AdvanceReports::sales_by_category" title="Sales By Category" module="Bluethink_AdvanceReports" sortOrder="9999" resource="Bluethink_AdvanceReports::index_index" parent="Bluethink::top_level" action="bluethink_advancereports/sales/salesByCategory"/>
+        <add id="Bluethink_AdvanceReports::sales_by_coupon" title="Sales By Coupon Code" module="Bluethink_AdvanceReports" sortOrder="9999" resource="Bluethink_AdvanceReports::index_index" parent="Bluethink::top_level" action="bluethink_advancereports/salesByCoupon/coupon"/>
+        <add id="Bluethink_AdvanceReports::sales_by_payment_type" title="Sales By Payment Type" module="Bluethink_AdvanceReports" sortOrder="9999" resource="Bluethink_AdvanceReports::index_index" parent="Bluethink::top_level" action="bluethink_advancereports/sales_salesbypaymenttype/index"/>
+        <add id="Bluethink_AdvanceReports::abandoned_cart" title="Abandoned Cart" module="Bluethink_AdvanceReports" sortOrder="9999" resource="Bluethink_AdvanceReports::index_index" parent="Bluethink::top_level" action="bluethink_advancereports/order_abandoned/index"/>
+    </menu>
+</config>

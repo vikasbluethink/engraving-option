@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+	<system>
+		<tab id="bluethink" translate="label" sortOrder="999">
+			<label>bluethink</label>
+		</tab>
+		<section id="bluethink" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+			<label>bluethink</label>
+			<tab>bluethink</tab>
+			<resource>Bluethink_AdvanceReports::config_bluethink_advancereports</resource>
+			<group id="advance_reports" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+				<label>advance_reports</label>
+				<field id="enable_disable" type="select" sortOrder="10" showInWebsite="1" showInStore="1" showInDefault="1" translate="label">
+					<label>enable_disable</label>
+					<comment/>
+					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+				</field>
+			</group>
+		</section>
+	</system>
+</config>
